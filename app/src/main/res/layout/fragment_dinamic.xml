@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DinamicFragment"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_dinamicf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hola soy un fragment dinamico" />
+
+    <Button
+        android:id="@+id/btn_dinamicf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESIONA PLOX"/>
+
+</LinearLayout>
